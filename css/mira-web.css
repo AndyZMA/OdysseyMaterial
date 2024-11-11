@@ -1,0 +1,861 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+.mira_logo {
+  z-index: 10;
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(9px);
+  background-color: #09193B7d;
+  width: 100vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 2vw;
+  position: sticky;
+  inset: 0% 0% auto;
+}
+
+.mira_section1_container {
+  background-color: #caaeae00;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.mira_section1_container.margin-top {
+  background-color: #caaeae00;
+  height: 80vh;
+}
+
+.mira_section2_img_wrapper {
+  justify-content: flex-start;
+  align-items: center;
+  width: 55%;
+  height: 90%;
+  margin-top: 0;
+  display: flex;
+  position: relative;
+  overflow: visible;
+}
+
+.mira_section1_info_wrapper {
+  z-index: 3;
+  background-color: #09193B;
+  justify-content: flex-start;
+  align-items: center;
+  width: 43vw;
+  height: auto;
+  margin-left: -36vw;
+  display: flex;
+  position: relative;
+  inset: auto auto auto 0%;
+  overflow: visible;
+}
+
+.mira_section1_img_wrapper {
+  position: absolute;
+  inset: 0%;
+  overflow: hidden;
+}
+
+.mira_section1_image {
+  object-fit: cover;
+  background-image: url('../images/_AAL2774.jpg');
+  background-position: 0 0;
+  background-size: 125px;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  display: block;
+  position: relative;
+  inset: 0% auto 0% 0;
+}
+
+.mira_section1_img_reveal {
+  z-index: 1;
+  background-color: #09193B;
+  display: block;
+  position: absolute;
+  inset: 0%;
+}
+
+.mira_section1_info_container {
+  z-index: 1;
+  position: static;
+}
+
+.mira_section1_info_row {
+  height: auto;
+  overflow: hidden;
+}
+
+.mira_section1_info_row.big {
+  height: auto;
+  padding-bottom: .4vw;
+  line-height: 20px;
+}
+
+/*Texto Inicial*/
+.xd_mira_h1_onload {
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Montserrat Sans, sans-serif;
+  font-size: 2.5vw;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.body {
+  background-color: #09193B;
+}
+
+.mira_sticky-wrapper {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.mira_section2_wrapper {
+  height: 220vh;
+  display: flex;
+  position: relative;
+}
+
+.mira_div-outside {
+  width: 100%;
+  height: 50vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.mira_div-inside {
+  background-image: url('../images/xd_mira_portada_02.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vw;
+  margin: auto;
+  position: static;
+}
+
+.mira_section2_container {
+  background-color: #caaeae00;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
+.mira_section2_info_container {
+  background-color: #2d2d2d;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: auto;
+  padding: 19px;
+  display: flex;
+  position: absolute;
+  inset: auto 0% auto auto;
+}
+
+.xd_mira_section2_p {
+  color: #e8e5de;
+  letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Montserrat Sans, sans-serif;
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.mira_section1-5_container {
+  justify-content: flex-end;
+  align-items: center;
+  width: 80vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15vw;
+  padding-bottom: 15vw;
+  display: flex;
+}
+
+.mira_section1-5_container.margin {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.xd_mira_section1-5_p {
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Figgins, sans-serif;
+  font-size: 5.5vw;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.xd_mira_section1-5_p._2 {
+  color: #FFFFFF;
+}
+
+.text-span {
+  color: #FFFFFF;
+}
+
+.mira_section1-5_info_container {
+  z-index: 1;
+  position: absolute;
+}
+
+.mira_section1-5_info_row {
+  height: auto;
+  overflow: hidden;
+}
+
+.text-span-2 {
+  color: #fff;
+}
+
+.mira_footer {
+  background-color: #09193B;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100vw;
+  height: auto;
+  padding: 2vw;
+  display: flex;
+}
+
+.mira_footer_logo {
+  width: 10vw;
+}
+
+.mira_footer_links_wrapper {
+  grid-column-gap: .5vw;
+  grid-row-gap: .5vw;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  display: flex;
+}
+
+.mira_p_footer_link {
+  color: #fff;
+  font-family: Montserrat Sans, sans-serif;
+  font-size: .8vw;
+  text-decoration: none;
+}
+
+.mira_header_logo {
+  width: 13vw;
+}
+
+.mira_logo_header_img {
+  width: 100%;
+}
+
+.xd_mira_numeralia_titulo {
+  font-family: Figgins, sans-serif;
+  font-size: 2.5vw;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.xd_mira_numeralia_titulo.xd_mira_red_text {
+  color: #fff;
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.xd_mira_numeralia_text {
+  font-family: Montserrat Sans, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.xd_mira_numeralia_text.xd_mira_text_light {
+  color: #e8e5de;
+  text-align: center;
+}
+
+.xd_mira_numeralia_container {
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+}
+
+.xd_mira_numeralia_content {
+  width: 24%;
+}
+
+.xd_mira_numeralia_wrapper {
+  grid-column-gap: 8vh;
+  grid-row-gap: 8vh;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 80vw;
+  display: flex;
+}
+
+.xd_mira_numero_highlight {
+  font-family: Figgins, sans-serif;
+  font-size: 3vw;
+  font-weight: 800;
+  line-height: 110%;
+}
+
+.xd_mira_numero_highlight.xd_mira_text_grey {
+  color: #7e7f74;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.xd_mira_numeralia_section {
+  background-color: #09193B;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+}
+
+.mira_section_end {
+  justify-content: flex-end;
+  align-items: center;
+  width: 80vw;
+  height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15vw;
+  padding-bottom: 15vw;
+  display: flex;
+}
+
+.xd_mira_p_end {
+  color: #7d7e74;
+  letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Figgins, sans-serif;
+  font-size: 5.5vw;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.mira_footer_links_2 {
+  grid-column-gap: .5vw;
+  grid-row-gap: .5vw;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  display: flex;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.xd_mira_image_bg {
+  z-index: 1;
+  position: absolute;
+  inset: 0%;
+}
+
+.xd_mira_container {
+  width: 100vw;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.xd_mira_desarrollos_subtitle {
+  color: #efece6;
+  margin-bottom: 0;
+  font-family: Montserrat Sans, sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+.xd_mira_desarrollos_section {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 600vh;
+  display: flex;
+  position: relative;
+  scroll-snap-type: y mandatory;
+}
+
+
+
+.xd_mira_desarrollos_wrapper {
+  scroll-snap-align: start;
+  z-index: 2;
+  contain: paint;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+
+.xd_mira_desarrollos_wrapper._01 {
+  z-index: 5;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.xd_mira_desarrollos_wrapper._02 {
+  z-index: 4;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+  padding-bottom: 20px; /* Ajusta para mayor separación */
+}
+
+
+
+.xd_mira_desarrollos_wrapper._03 {
+  z-index: 3;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+  padding-top: 20px; /* Ajusta para mayor separación */
+}
+
+
+
+.xd_mira_desarrollos_wrapper._05 {
+  z-index: 1;
+  position: absolute;
+  inset: 0%;
+}
+
+.xd_mira_desarrollos_wrapper._04 {
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.xd_mira_info {
+  position: relative;
+  z-index: 10; /* Asegura que el texto esté al frente */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor legibilidad */
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+}
+
+
+.xd_mira_content {
+  z-index: 2;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80vw;
+  min-height: 100vh; /* Asegura que cada sección ocupe la pantalla completa */
+  display: flex;
+  position: absolute;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.xd_mira_content.first {
+  transition: all 0.5s ease-in-out;
+}
+
+.xd_mira_desarrollos_title {
+  color: #e8e5de;
+  margin-bottom: 0;
+  font-family: Figgins, sans-serif;
+  font-size: 3vw;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.xd_mira_sticky {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+.xd_mira_thumb {
+  width: 50%;
+}
+
+.kuo_back-to-top-2 {
+  z-index: 10;
+  background-color: #ffffff26;
+  justify-content: center;
+  align-items: center;
+  width: 3vw;
+  height: 3vw;
+  padding: 10px;
+  display: flex;
+  position: fixed;
+  inset: auto 0% 0% auto;
+}
+
+.xd_mira_back-to-top {
+  z-index: 10;
+  background-color: #ffffff26;
+  justify-content: center;
+  align-items: center;
+  width: 3vw;
+  height: 3vw;
+  padding: 10px;
+  display: flex;
+  position: fixed;
+  inset: auto 2vw 8vh auto;
+}
+
+.xd_mira_back-to-top.w--current {
+  background-color: #ffffff1a;
+}
+
+@media screen and (min-width: 1920px) {
+  .xd_mira_h1_onload {
+    font-size: 2.5vw;
+  }
+
+  .mira_div-outside, .mira_div-inside {
+    height: 40vw;
+  }
+
+  .xd_mira_section1-5_p {
+    font-size: 5vw;
+  }
+
+  .mira_footer_links_wrapper {
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+  }
+
+  .mira_p_footer_link {
+    font-size: .7vw;
+  }
+
+  .xd_mira_p_end {
+    font-size: 5vw;
+  }
+
+  .mira_footer_links_2 {
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+  }
+
+  .kuo_back-to-top-2 {
+    background-color: #979797;
+    width: 2.5vw;
+    height: 2.5vw;
+    bottom: 1vw;
+    right: 1vw;
+  }
+
+  .xd_mira_back-to-top {
+    background-color: #979797;
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .mira_section1_info_container {
+    top: 11vw;
+  }
+
+  .mira_section1_info_row {
+    height: auto;
+  }
+
+  .xd_mira_h1_onload {
+    font-size: 3.2vw;
+  }
+
+  .mira_div-outside {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .mira_div-inside {
+    width: 100%;
+  }
+
+  .xd_mira_section2_p {
+    font-size: 1.8vw;
+  }
+
+  .mira_p_footer_link {
+    font-size: 1.3vw;
+  }
+
+  .mira_header_logo {
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .xd_mira_h1_onload {
+    font-size: 3.5em;
+  }
+
+  .mira_div-outside, .mira_div-inside {
+    height: 400px;
+  }
+
+  .xd_mira_section2_p, .xd_mira_section1-5_p {
+    font-size: 3.5em;
+  }
+
+  .mira_footer {
+    grid-column-gap: 2vh;
+    grid-row-gap: 2vh;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mira_footer_links_wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .xd_mira_p_end {
+    font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .mira_logo {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-left: 6vw;
+  }
+
+  .mira_section1_container.margin-top {
+    width: 90vw;
+    height: 60vh;
+  }
+
+  .mira_section2_img_wrapper {
+    width: 80%;
+  }
+
+  .mira_section1_info_wrapper {
+    width: 60vw;
+    height: 40%;
+    margin-left: -16.5vw;
+  }
+
+  .mira_section1_info_container {
+    top: auto;
+  }
+
+  .mira_section1_info_row {
+    height: auto;
+  }
+
+  .mira_section1_info_row.big {
+    padding-bottom: 1vw;
+  }
+
+  .xd_mira_h1_onload {
+    font-size: 4.5vw;
+  }
+
+  .mira_div-outside {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .mira_section2_container {
+    width: 90vw;
+  }
+
+  .mira_section2_info_container {
+    width: 60vw;
+  }
+
+  .xd_mira_section2_p {
+    font-size: 3vw;
+  }
+
+  .mira_section1-5_container {
+    width: 90vw;
+    padding-top: 25vw;
+    padding-bottom: 25vw;
+  }
+
+  .xd_mira_section1-5_p {
+    font-size: 9vw;
+  }
+
+  .mira_footer {
+    justify-content: center;
+    align-items: center;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+
+  .mira_footer_logo {
+    width: 22vw;
+  }
+
+  .mira_p_footer_link {
+    font-size: 3vw;
+  }
+
+  .mira_header_logo {
+    width: 30vw;
+  }
+
+  .xd_mira_numeralia_titulo.xd_mira_red_text {
+    font-size: 20px;
+  }
+
+  .xd_mira_numeralia_text.xd_mira_text_light {
+    font-size: 16px;
+  }
+
+  .xd_mira_numeralia_container {
+    grid-column-gap: 2vh;
+    grid-row-gap: 2vh;
+    flex-flow: column;
+  }
+
+  .xd_mira_numeralia_content {
+    width: 100%;
+  }
+
+  .xd_mira_numero_highlight.xd_mira_text_grey {
+    font-size: 30px;
+  }
+
+  .xd_mira_numeralia_section {
+    height: 80vh;
+  }
+
+  .mira_section_end {
+    width: 90vw;
+    padding-top: 25vw;
+    padding-bottom: 25vw;
+  }
+
+  .xd_mira_p_end {
+    font-size: 9vw;
+  }
+
+  .xd_mira_desarrollos_subtitle {
+    font-size: 16px;
+  }
+
+  .xd_mira_info {
+    width: 100%;
+  }
+
+  .xd_mira_desarrollos_title {
+    font-size: 22px;
+  }
+
+  .xd_mira_sticky {
+    grid-column-gap: 5vh;
+    grid-row-gap: 5vh;
+    flex-flow: column;
+  }
+
+  .xd_mira_thumb {
+    width: 100%;
+  }
+
+  .kuo_back-to-top-2, .xd_mira_back-to-top {
+    background-color: #ccc;
+    width: 10vw;
+    height: 10vw;
+    bottom: 3vw;
+    right: 3vw;
+  }
+}
+
+
+@font-face {
+  font-family: 'Figgins';
+  src: url('../fonts/Figgins_Bold.eot') format('embedded-opentype'), url('../fonts/Figgins_ExtraBold.woff') format('woff'), url('../fonts/Figgins_Bold.woff') format('woff'), url('../fonts/Figgins_Bold.ttf') format('truetype'), url('../fonts/Figgins_ExtraBold.ttf') format('truetype'), url('../fonts/Figgins_Bold.otf') format('opentype'), url('../fonts/Figgins_ExtraBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Figgins';
+  src: url('../fonts/Figgins.eot') format('embedded-opentype'), url('../fonts/Figgins.woff') format('woff'), url('../fonts/Figgins.ttf') format('truetype'), url('../fonts/Figgins.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat Sans';
+  src: url('../fonts/Montserrat-Bold.eot') format('embedded-opentype'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype'), url('../fonts/Montserrat-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat Sans';
+  src: url('../fonts/Montserrat-Medium.eot') format('embedded-opentype'), url('../fonts/Montserrat-Medium.woff') format('woff'), url('../fonts/Montserrat-Medium.ttf') format('truetype'), url('../fonts/Montserrat-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat Sans';
+  src: url('../fonts/Montserrat-Regular.eot') format('embedded-opentype'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Figgins';
+  src: url('../fonts/Figgins_ExtraBold.eot') format('embedded-opentype'), url('../fonts/Figgins_ExtraBold.woff') format('woff'), url('../fonts/Figgins_ExtraBold.ttf') format('truetype'), url('../fonts/Figgins_ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Figgins';
+  src: url('../fonts/Figgins_Italic.woff') format('woff'), url('../fonts/Figgins_Italic.ttf') format('truetype'), url('../fonts/Figgins_Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
